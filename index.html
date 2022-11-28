@@ -5,12 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Srinivas Portfolio Website</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans">
+        <link rel="stylesheet" href="css/style.css"> 
+        <script src="https://kit.fontawesome.com/4cb07f8c14.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
             <div class="logo">
-                <img src="img/devjane.png" alt="">
+                <img src="img/devjane.png" alt="stevejobs-avatar">
             </div>
             <button class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
@@ -31,7 +34,7 @@
                 Hi, I am <strong>Srinivas</strong>
             </h1>
             <p class="section__subtitle section__subtitle--intro">Frontend Developer</p>
-            <img src="img/srinivas-01.jpg" alt="a picture of srinivas smiling">
+            <img src="img/dev-jane-01.jpg" alt="a picture of srinivas smiling" class="intro__img">
         </section>
 
 
@@ -61,20 +64,24 @@
         <!-- About Me-->
         <section class="about-me" id="about">
             <h2 class="section__title section__title--about">Who I am</h2>
-            <p class="section__subtitle section__subtitle--about"></p>
+            <p class="section__subtitle section__subtitle--about">Designer and developer based out of Hyd,India</p>
 
             <div class="about-me__body">
-                <p></p>
-                <p></p>
+                <p>The name Hyderabad means "Haydar's city" or "lion city", from haydar 'lion' and ābād 'city', after Caliph Ali Ibn Abi Talib, also known as Haydar because of his lion-like valour in battle.[8]
+
+                    The city was originally called Baghnagar "city of gardens", and later acquired the name Hyderabad.[9][10] The European travellers von Poser and Thévenot found both names in use in the 17th century.[11][12]
+                    
+                    One popular legend suggests that the founder of the city, Muhammad Quli Qutb Shah, named it Bhagya-nagar after Bhagmati, a local nautch (dancing) girl whom he married. She converted to Islam and adopted the title Hyder Mahal. The city would have been named Hyderabad in her honour.</p>
+                <p>The discovery of Megalithic burial sites and cairn circles in the suburbs of Hyderabad, in 1851 by Philip Meadows Taylor, a polymath in the service of the Nizam, had provided evidence that the region in which the city stands has been inhabited from the Stone Age.[14][15] Archaeologists excavating near the city have unearthed Iron Age sites that may date from 500 BCE.[16] The region comprising modern Hyderabad and its surroundings was ruled by the Chalukya dynasty from 624 CE to 1075 CE.[17] Following the dissolution of the Chalukya empire into four parts in the 11th century, Golconda—now part of Hyderabad—came under the control of the Kakatiya dynasty from 1158, whose seat of power was at Warangal—148 km (92 mi) northeast of modern Hyderabad.[18] The Kakatiya ruler Ganapatideva 1199–1262 built a hilltop outpost—later known as Golconda Fort—to defend their western region.</p>
             </div>
 
-            <img src="img/srinivas-02.jpg" alt="srinivas leaning against aguada fort wall">
+            <img src="img/dev-jane-02.jpg" alt="srinivas leaning against aguada fort wall" class="about-me__img">
         </section>
 
         <!-- My Work-->
         <section class="my-work" id="work">
             <h2 class="section__title">My work</h2>
-            <p class="section__subtitle"></p>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
 
             <div class="portfolio">
                 <a href="https://lovely-cheesecake-7677d5.netlify.app/" class="portfolio__item">
@@ -91,5 +98,29 @@
                 </a>
             </div>
         </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:srinivassivaratri1122@gmail.com" class="footer__link">srinivassivaratri1122@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a href="" class="social-list__link">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a href="" class="social-list__link">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a href="" class="social-list__link">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
     </body>
 </html>
