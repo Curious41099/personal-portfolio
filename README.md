@@ -1,21 +1,14 @@
-# cNqRvZsw
+<h1>Personal Portfolio Website</h1>
+<p>Welcome to my personal portfolio website! This website serves as a showcase of my skills and experience, as well as a platform to share my projects and ideas with the world.</p>
 
-Quick start:
+<h2>Features</h2>
+<p>View my personal and professional information, including my background, education, and work experience</p>
+<p>Explore my portfolio of projects and achievements, including links to live demos and code repositories</p>
+<p>Learn about my technical skills and interests through my detailed skills section</p>
+<p>Contact me directly through the contact form for any inquiries or collaboration opportunities
+Getting Started</p>
+<p>To navigate my personal portfolio website, simply use the navigation bar at the top of the page. You can access each section of the website by clicking on the corresponding link.</p>
 
-```
-$ npm install
-$ npm start
-````
+<p>If you would like to get in touch with me, you can use the contact form on the "Contact" page to send me a message. You can also find my social media and email links on this page.</p>
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
-
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
-
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
+<p>I hope you enjoy exploring my website and learning more about me and my work. Thank you for visiting!</p>
